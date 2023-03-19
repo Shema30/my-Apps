@@ -1,0 +1,368 @@
+body {
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* hr {
+  color: black;
+  border: dotted;
+  border-bottom: none;
+  border-width: 10px;
+  width: 5%;
+  margin: 50px auto;
+} */
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, p {
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  background-color: #ffcc00;
+  /* padding: 20px 0; */
+}
+
+.container-fluid {
+  width: 80%;
+}
+
+.form-control {
+  border: solid 2px black;
+  border-radius: 30px;
+  background-color: transparent;
+  width: 80%;
+  height: 30px;
+}
+/* 
+.navbar-brand img {
+  width: fit-content;
+} */
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.navbar .btn {
+  font-weight: 650;
+}
+
+.dropdown-menu {
+  background-color: black;
+  padding: 20px 30px;
+}
+
+.dropdown-item:hover {
+  background-color:black;
+}
+
+.nav-details{
+  display: flex;
+}
+
+.nav-details a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-details a:hover {
+  color: #ffcc00;
+}
+
+.dropdown-item-links {
+  padding-left: 1rem;
+}
+
+.sub-details {
+  margin-right: 30px;
+}
+
+/* ==================Coursels======================== */
+
+.Coursels {
+  background-color: #ffcc00;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 45rem;
+}
+/* 
+.carousel-item img {
+  height: 35rem;
+}  */
+.carousel-indicators {
+  margin-top: 50px;
+  /* position: relative;
+  display: block;
+  float: left; */
+}
+
+.carousel .carousel-indicators button {
+  /* background-color: #ffcc00;
+  border: solid 1px black;
+  width: 10px;
+ height: 10px;
+ border-radius: 100%; */
+ opacity: 0;
+}
+.carousel .carousel-indicators button:hover {
+  opacity: 80%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  opacity: 0;
+}
+
+.carousel .carousel-item {
+  height: 100%;
+}
+
+/* ==========================Apps============================ */
+
+.App {
+  margin: 30px 0 20px;
+}
+
+.apps-head h1{
+  font-weight: 800;
+  text-align: center;
+}
+
+.app-img {
+  padding: 20px;
+  width:100%;
+}
+
+.apps-app {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+} 
+
+.box p{
+  font-weight: 700;
+}
+
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+/* ==============================Deals================================== */
+
+.deal {
+  margin: 30px 0 20px;
+}
+
+.deals-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.deal-head {
+  position: relative;
+  margin: 20px 0 30px;
+}
+
+.deal-head h1{
+  font-weight: 800;
+  text-align: center;
+}
+
+.deal-btn {
+  position: absolute;
+  top :0;
+  right: 0;
+  margin-bottom: 30px;
+  width: 12%;
+  height: 40px;
+  border-radius: 30px;
+  border: solid 2px black;
+  background-color: #ffcc00;
+}
+.deal-btn:hover {
+  opacity: 80%;
+}
+
+.deal-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.deal-carousel .card, .deal-carousel .card img {
+  border-radius: 20px;
+}
+
+/* ======================Ni Dilu================================= */
+
+.dilu-poster {
+  height: 32rem;
+}
+.dilu-poster img {
+  width: 100%;
+  /* border-radius: 0 0 10% 10%; */
+}
+
+.ni-dilu {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.NiDilu-head {
+  position: relative;
+  margin-top: 60px;
+  /* margin: 20px 0 30px; */
+}
+
+.NiDilu-head h1{
+  font-weight: 800;
+  text-align: center;
+}
+
+.NiDilu-btn {
+  position: absolute;
+  top :0;
+  right: 0;
+  margin-bottom: 30px;
+  width: 12%;
+  height: 40px;
+  border-radius: 30px;
+  border: solid 2px black;
+  background-color: #ffcc00;
+}
+.NiDilu-btn:hover {
+  opacity: 80%;
+}
+
+.NiDilu-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.NiDilu-sides {
+  height: 100%;
+}
+
+.NiDilu-carousel img {
+  height: 150px;
+  width: 80%;
+}
+
+.NiDilu-carousel .card {
+  background-color: #ffcc00;
+  align-items: center;
+  border-radius: 18px;
+  /* padding: 40px 90px; */
+}
+
+.NiDilu-middle img {
+  height: 200px;
+}
+
+.NiDilu-sides .card {
+  margin-top: 20px;
+  padding: 40px 90px;
+}
+
+.NiDilu-middle .card {
+  margin-top: 20px;
+  padding: 140.5px 50px;
+}
+
+
+/* ======================Locator================================= */
+
+.Footer {
+  background-color: black;
+  margin-top: 80px;
+}
+
+.footer-all {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Footer h1,h3,p {
+  color: #fff;
+}
+
+.footer-icon {
+  color: #ffcc00;
+}
+
+.footer-contact-us {
+  padding: 60px 0 20px;
+}
+
+.footer-need-help {
+  text-align: center;
+  display: flex;
+  padding: 30px 0 10px 40px;
+}
+.footer-need-help h1 {
+  margin-top: 12px;
+}
+
+.mtn-footer-logo {
+  width: 30%;
+}
+
+.footer-social-logo {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.footer-social-logo .footer-icon {
+  font-size: 35px;
+  margin: 5px 5px;
+}
+
+.footer-social-logo .footer-icon:hover{
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  padding: 20px 0;
+}
+
+.useful-links {
+  padding-right: 100px;
+  line-height: 1;
+}
+
+.useful-links p:hover {
+  color: #ffcc00;
+}
+
+.footer-links li {
+  list-style: none;
+}
+
+.Footer hr {
+  color: #ffcc00;
+  margin: 0;
+}
+
+.copyright-container {
+  text-align: center;
+  padding: 15px 0 30px;
+}
